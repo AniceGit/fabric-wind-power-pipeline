@@ -44,8 +44,8 @@ Type de ressource	| Préfixe	| Exemple
 Lakehouse	        |    LH_    |LH_Wind_Power_Bronze
 Notebook	        |    NB_    |NB_Get_Daily_Data 
 Pipeline	        |    PL_    |PL_Orchestration 
-Semantic Model	     |    SM_    |SM_Wind_Turbine_Power 
-Report	             |    RPT_   |RPT_Wind_Turbine_Power_Analysis 
+Semantic Model	    |    SM_    |SM_Wind_Turbine_Power 
+Report	            |    RPT_   |RPT_Wind_Turbine_Power_Analysis 
 ```
 
 
