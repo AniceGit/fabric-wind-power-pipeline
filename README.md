@@ -24,7 +24,7 @@ GitHub (CSV) → Bronze → Silver → Gold → Semantic Model → Power BI
 - DAX
 
 ## 🏅 Le modèle Medaillon
-``
+```text
 ┌─────────────────┐       ┌─────────────────┐       ┌─────────────────┐
 │     BRONZE      │       │     SILVER      │       │      GOLD       │
 │  (Raw Data)     │   →   │  (Cleaned Data) │   →   │  (Business Data)│
