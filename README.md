@@ -33,7 +33,7 @@ GitHub (CSV) → Bronze → Silver → Gold → Semantic Model → Power BI
 │ • Format origine│       │ • Validées      │       │   dimensionnel  │
 │ • Pas de transfo│       │ • Enrichies     │       │ • Optimisé BI   │
 └─────────────────┘       └─────────────────┘       └─────────────────┘
-``
+``` 
 - Bronze 🥉 : Données telles qu'ingérées (exactement comme dans la source)
 - Silver 🥈 : Données nettoyées, standardisées, enrichies
 - Gold 🥇 : Données organisées pour l'analyse métier (modèle dimensionnel)
