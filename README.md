@@ -38,6 +38,39 @@ GitHub (CSV) → Bronze → Silver → Gold → Semantic Model → Power BI
 - Silver 🥈 : Données nettoyées, standardisées, enrichies
 - Gold 🥇 : Données organisées pour l'analyse métier (modèle dimensionnel)
 
+## Convention de nommage
+```text
+Type de ressource	| Préfixe	| Exemple
+Lakehouse	            LH_	    LH_Wind_Power_Bronze
+Notebook	            NB_	    NB_Get_Daily_Data 
+Pipeline	            PL_	    PL_Orchestration 
+Semantic Model	      SM_	    SM_Wind_Turbine_Power 
+Report	              RPT_	  RPT_Wind_Turbine_Power_Analysis 
+```
+
+
+## Flux de données
+```text
+Source (GitHub CSV)
+        ↓
+[Ingestion]
+        ↓
+LH_Wind_Power_Bronze (données brutes)
+        ↓
+[Transformation & Enrichissement]
+        ↓
+LH_Wind_Power_Silver (données nettoyées)
+        ↓
+[Modélisation dimensionnelle]
+        ↓
+LH_Wind_Power_Gold (star schema)
+        ↓
+Semantic Model
+        ↓
+Power BI Reports
+```
+
+
 ## 🚀 Statut
 
 🔨 **En cours de développement**
