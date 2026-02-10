@@ -1,6 +1,7 @@
 # Wind Power Analytics - Microsoft Fabric Pipeline
 
 Pipeline de données end-to-end sur Microsoft Fabric pour l'analyse de la production d'énergie éolienne.
+https://github.com/gsoulat/formation-data-engineer/tree/main/99-Brief/Eolienne
 
 ## 🎯 Objectifs
 
